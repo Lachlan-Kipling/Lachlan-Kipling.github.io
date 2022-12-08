@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+}
+
+h1{
+    margin: 24px;
+}
+
+ul{
+    margin: 24px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+li{
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+li img, li span{
+    width: 40px;
+    margin: auto;
+    color: white;
+}
+
+li img{
+    filter: invert(1);
+}
+
+main{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#projects ul{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
